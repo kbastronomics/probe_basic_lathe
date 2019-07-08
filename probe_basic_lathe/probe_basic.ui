@@ -208,7 +208,7 @@ bottom-margin: 0px;
            <enum>QTabWidget::South</enum>
           </property>
           <property name="currentIndex">
-           <number>7</number>
+           <number>6</number>
           </property>
           <widget class="QWidget" name="tab_2">
            <attribute name="title">
@@ -13602,6 +13602,212 @@ color: rgb(255, 255, 255);
            <attribute name="title">
             <string>          CONVERSATIONAL          </string>
            </attribute>
+           <widget class="QTabWidget" name="probe_tab_widget_2">
+            <property name="geometry">
+             <rect>
+              <x>500</x>
+              <y>10</y>
+              <width>1079</width>
+              <height>649</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>1079</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Bebas Kai</family>
+              <pointsize>13</pointsize>
+             </font>
+            </property>
+            <property name="tabPosition">
+             <enum>QTabWidget::North</enum>
+            </property>
+            <property name="tabShape">
+             <enum>QTabWidget::Rounded</enum>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>25</width>
+              <height>16</height>
+             </size>
+            </property>
+            <widget class="QWidget" name="facing_tab_1">
+             <attribute name="title">
+              <string>FACING</string>
+             </attribute>
+             <layout class="QHBoxLayout" name="horizontalLayout_81"/>
+            </widget>
+            <widget class="QWidget" name="inside_corners_tab_3">
+             <attribute name="title">
+              <string>OUTSIDE DIA TURN</string>
+             </attribute>
+             <layout class="QHBoxLayout" name="horizontalLayout_82"/>
+            </widget>
+            <widget class="QWidget" name="boss_and_pocket_tab_3">
+             <attribute name="title">
+              <string>INSIDE DIA TURN</string>
+             </attribute>
+             <layout class="QHBoxLayout" name="horizontalLayout_83"/>
+            </widget>
+            <widget class="QWidget" name="valley_and_ridge_tab_3">
+             <attribute name="title">
+              <string>Chamfer</string>
+             </attribute>
+             <layout class="QHBoxLayout" name="horizontalLayout_84"/>
+            </widget>
+            <widget class="QWidget" name="rotary_axis_tab_3">
+             <attribute name="title">
+              <string>GroovING</string>
+             </attribute>
+            </widget>
+            <widget class="QWidget" name="multi_axis_tab_3">
+             <attribute name="title">
+              <string>PARTING</string>
+             </attribute>
+            </widget>
+            <widget class="QWidget" name="tab_24">
+             <attribute name="title">
+              <string>DRILLING</string>
+             </attribute>
+            </widget>
+            <widget class="QWidget" name="tab_31">
+             <attribute name="title">
+              <string>TAPING</string>
+             </attribute>
+            </widget>
+            <widget class="QWidget" name="tab_32">
+             <attribute name="title">
+              <string>THREADING</string>
+             </attribute>
+            </widget>
+            <widget class="QWidget" name="probe_help_tab_3">
+             <attribute name="title">
+              <string>       HELP        </string>
+             </attribute>
+             <layout class="QHBoxLayout" name="horizontalLayout_85">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_42">
+                <property name="bottomMargin">
+                 <number>15</number>
+                </property>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+           <widget class="QLabel" name="label_32">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>13</y>
+              <width>141</width>
+              <height>27</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>27</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>27</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Bebas Kai</family>
+              <pointsize>14</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 5px;
+    color: rgb(238, 238, 236);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgb(81, 86, 85), stop:0.489795 rgb(99, 102, 102), stop:0.699799 rgb(85, 88, 94), stop:0.90444 rgb(77, 84, 86), stop:0.160246 rgb(83, 84, 91), stop:1 rgb(109, 115, 118));
+	font: 14pt &quot;Bebas Kai&quot;;
+}</string>
+            </property>
+            <property name="text">
+             <string>Operation Name</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="lineEdit_6">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="geometry">
+             <rect>
+              <x>170</x>
+              <y>17</y>
+              <width>311</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>100</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>130</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLineEdit {
+    border-style: transparent;
+    border-color: rgb(235, 235, 235);
+    border-width: 1px;
+    border-radius: 5px;
+    color: black;
+    background: rgb(235, 235, 235);
+	font: 75 17pt &quot;Bebas Kai&quot;;
+}</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+           <zorder>probe_tab_widget_2</zorder>
+           <zorder></zorder>
+           <zorder>label_32</zorder>
+           <zorder>lineEdit_6</zorder>
           </widget>
           <widget class="QWidget" name="tab_3">
            <attribute name="title">
@@ -19767,9 +19973,54 @@ font: 11pt bebas kai;
    <header>qtpyvcp.widgets.input_widgets.jog_increment</header>
   </customwidget>
   <customwidget>
+   <class>FileSystemTable</class>
+   <extends>QTableView</extends>
+   <header>qtpyvcp.widgets.input_widgets.file_system</header>
+  </customwidget>
+  <customwidget>
+   <class>LoadMeter</class>
+   <extends>QProgressBar</extends>
+   <header>qtpyvcp.widgets.display_widgets.load_meter</header>
+  </customwidget>
+  <customwidget>
+   <class>MDIEntry</class>
+   <extends>QLineEdit</extends>
+   <header>qtpyvcp.widgets.input_widgets.mdientry_widget</header>
+  </customwidget>
+  <customwidget>
+   <class>ActionSlider</class>
+   <extends>QSlider</extends>
+   <header>qtpyvcp.widgets.input_widgets.action_slider</header>
+  </customwidget>
+  <customwidget>
+   <class>RemovableDeviceComboBox</class>
+   <extends>QComboBox</extends>
+   <header>qtpyvcp.widgets.input_widgets.file_system</header>
+  </customwidget>
+  <customwidget>
+   <class>StatusLabel</class>
+   <extends>QLabel</extends>
+   <header>qtpyvcp.widgets.display_widgets.status_label</header>
+  </customwidget>
+  <customwidget>
    <class>RecentFileComboBox</class>
    <extends>QComboBox</extends>
    <header>qtpyvcp.widgets.input_widgets.recent_file_combobox</header>
+  </customwidget>
+  <customwidget>
+   <class>SubCallButton</class>
+   <extends>QPushButton</extends>
+   <header>qtpyvcp.widgets.button_widgets.subcall_button</header>
+  </customwidget>
+  <customwidget>
+   <class>ToolTable</class>
+   <extends>QTableView</extends>
+   <header>qtpyvcp.widgets.input_widgets.tool_table</header>
+  </customwidget>
+  <customwidget>
+   <class>MDIButton</class>
+   <extends>QPushButton</extends>
+   <header>qtpyvcp.widgets.button_widgets.mdi_button</header>
   </customwidget>
   <customwidget>
    <class>GcodeBackplot</class>
@@ -19790,54 +20041,9 @@ font: 11pt bebas kai;
    <container>1</container>
   </customwidget>
   <customwidget>
-   <class>SubCallButton</class>
-   <extends>QPushButton</extends>
-   <header>qtpyvcp.widgets.button_widgets.subcall_button</header>
-  </customwidget>
-  <customwidget>
-   <class>FileSystemTable</class>
-   <extends>QTableView</extends>
-   <header>qtpyvcp.widgets.input_widgets.file_system</header>
-  </customwidget>
-  <customwidget>
-   <class>ToolTable</class>
-   <extends>QTableView</extends>
-   <header>qtpyvcp.widgets.input_widgets.tool_table</header>
-  </customwidget>
-  <customwidget>
-   <class>RemovableDeviceComboBox</class>
-   <extends>QComboBox</extends>
-   <header>qtpyvcp.widgets.input_widgets.file_system</header>
-  </customwidget>
-  <customwidget>
-   <class>MDIButton</class>
-   <extends>QPushButton</extends>
-   <header>qtpyvcp.widgets.button_widgets.mdi_button</header>
-  </customwidget>
-  <customwidget>
-   <class>LoadMeter</class>
-   <extends>QProgressBar</extends>
-   <header>qtpyvcp.widgets.display_widgets.load_meter</header>
-  </customwidget>
-  <customwidget>
-   <class>MDIEntry</class>
-   <extends>QLineEdit</extends>
-   <header>qtpyvcp.widgets.input_widgets.mdientry_widget</header>
-  </customwidget>
-  <customwidget>
-   <class>ActionSlider</class>
-   <extends>QSlider</extends>
-   <header>qtpyvcp.widgets.input_widgets.action_slider</header>
-  </customwidget>
-  <customwidget>
    <class>ActionButton</class>
    <extends>QPushButton</extends>
    <header>qtpyvcp.widgets.button_widgets.action_button</header>
-  </customwidget>
-  <customwidget>
-   <class>StatusLabel</class>
-   <extends>QLabel</extends>
-   <header>qtpyvcp.widgets.display_widgets.status_label</header>
   </customwidget>
  </customwidgets>
  <resources>
